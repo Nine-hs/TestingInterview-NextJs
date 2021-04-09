@@ -1,0 +1,411 @@
+.contrainer {
+    width: auto;
+    /*background-color: violet;*/
+    height: 75px;
+    max-height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImg {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+.wrapMenu {
+    margin: 0;
+    width: 378px;
+    max-width: 100%;
+}
+
+.wrapBoxLink {
+    position: relative;
+    float: right;
+}
+
+.wrapMenu .wrapBoxLinkline {
+    float: right;
+    position: relative;
+}
+
+.linkMenu {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 15px 0px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.linkUnderline {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapBoxLinkUnderline {
+    float: right;
+}
+
+.wrapBoxLinline {
+    float: right;
+}
+
+.wrapBoxLinkUnderline .linkUnderline {
+    margin: 0px 15px 0px 15px;
+}
+
+.wrapMenuLogo {
+    display: flex;
+    width: 150px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.menuLogo {
+    margin: 0px 5px 0px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapBoxMenu {
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnResp {
+    display: none;
+}
+
+.linkMenu:hover {
+    text-shadow: 2px 0px 4px rgba(157, 160, 157, 0.72);
+    
+
+}
+
+.linkUnderline:hover {
+    text-shadow: 2px 0px 4px rgba(157, 160, 157, 0.72);
+}
+
+.menuLogo:hover {
+    box-shadow: rgba(86, 86, 99, 0.267) 0px 7px 29px 0px;
+    border-radius: 150px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .wrapBoxMenu {
+        display: none;
+    }
+
+    .logoImg {
+        width: 90px;
+        height: auto;
+        max-width: 100%;
+        min-width: 50px;
+    }
+
+    .contrainer {
+        height: 45px;
+        max-height: 100%;
+    }
+
+    .wrapResMenu {
+        display: flex;
+        height: inherit;
+        position: absolute;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .btnResp {
+        display: block;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .btnResp:active {
+        color: #BEBEBE;
+    }
+
+    /*responesive*/
+
+    .wrapResp2 {
+        display: none;
+        transition: hidden 1s;
+    }
+
+    .wrapResp1 {
+        display: block;
+        background-color: rgb(255, 255, 255);
+        height: auto;
+        width: 250px;
+        max-width: 100%;
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        transition: show 1s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.514);
+    }
+
+    .back {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        margin: 0px 0px 0px 9px;
+
+    }
+
+    .headMenuResp {
+        margin: auto;
+        display: flex;
+        height: inherit;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .headMenuSelect {
+        position: absolute;
+        right: 0;
+    }
+
+    .headCart {
+        margin: 0px 0px 0px 12px;
+        grid-column: span 12;
+    }
+
+    .wrapMenuReps {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .tbCart {
+        grid-column: span 12;
+        width: 215px;
+        max-width: 100%;
+    }
+
+    .ImgInCart {
+        width: 25px;
+        border: 1px solid #616161;
+    }
+
+    .line {
+        grid-column: span 12;
+        width: 90%;
+    }
+
+    .delete {
+        font-size: 12px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .fontResp {
+        font-size: 12px;
+        width: 60px;
+        max-width: 100%;
+        font-weight: 600;
+    }
+
+    .columPrice {
+        display: flex;
+    }
+
+    .tbColum {
+        width: 50px;
+        max-width: 100%;
+        overflow: hidden;
+        text-align: center;
+
+    }
+
+    .RespFooter {
+        height: 812px;
+        max-height: 812px;
+        grid-column: span 12;
+    }
+
+    .RespFooter .DiscoutBox {
+        position: absolute;
+        top: 0;
+    }
+
+    .subtotal {
+        position: absolute;
+        left: 0;
+        margin-left: 12px;
+        margin-top: 25px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .subtotalBath {
+        position: absolute;
+        right: 0;
+        margin-right: 12px;
+        margin-top: 25px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+}
+
+.wrapResp2 {
+    display: none;
+    transition: hidden 1s;
+}
+
+/*responesive*/
+.wrapResp1 {
+    transition: show 1s;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: auto;
+    width: 250px;
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.514);
+}
+
+.back {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin: 0px 0px 0px 9px;
+    cursor: pointer;
+}
+
+.headMenuResp {
+    margin: auto;
+    display: flex;
+    height: inherit;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.headMenuSelect {
+    position: absolute;
+    right: 0;
+}
+
+.headCart {
+    margin: 0px 0px 0px 12px;
+    grid-column: span 12;
+}
+
+.wrapMenuReps {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.tbCart {
+    grid-column: span 12;
+    width: 215px;
+    max-width: 100%;
+}
+
+.ImgInCart {
+    width: 25px;
+    border: 1px solid #616161;
+}
+
+.line {
+    grid-column: span 12;
+    width: 90%;
+}
+
+.delete {
+    font-size: 12px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.fontResp {
+    font-size: 12px;
+    width: 60px;
+    max-width: 100%;
+    font-weight: 600;
+}
+
+.columPrice {
+    display: flex;
+}
+
+.tbColum {
+    width: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.RespFooter {
+    height: 812px;
+    max-height: 812px;
+    grid-column: span 12;
+}
+
+.DiscoutBox {
+    position: relative;
+    display: flex;
+
+}
+
+.discount {
+    font-size: 14px;
+    height: 32px;
+    width: 90px;
+    margin: 0px 0px 0px 15px;
+    outline: none;
+}
+
+.addDiscount {
+    cursor: pointer;
+    font-size: 10px;
+    margin: 0px 0px 0px 7px;
+}
+
+.subtotal {
+    position: absolute;
+    left: 0;
+    margin-left: 12px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.subtotalBath {
+    position: absolute;
+    right: 0;
+    margin-right: 12px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 600;
+}

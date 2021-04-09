@@ -1,0 +1,77 @@
+{
+"Products":[
+    
+        {
+            "id":1,
+            "name":"เฮดโฟน samsung level",
+            "full_rating":5,
+            "cate":"Headeset",
+            "rating":2,
+            "price":12000,
+            "stock":25,
+            "discription":"Samsung เปิดตัว LEVEL Active ชุดหูฟังบลูทูธที่ออกแบบมาเพื่อใช้งานขณะออกกำลังกายและทำกิจกรรมกลางแจ้ง โดยมีก้านทัดหูทำจากวัสดุซิลิโคนเพิ่มความกระชับ มีการเคลือบสารนาโน P2i nano-coating ให้กับชุดหูฟังเพื่อป้องกันความเสียหายที่เกิดจากเหงื่อและน้ำ",
+            "review":"LEVEL Active สามารถใช้งานร่วมกับแอพ Samsung Level (ดาวน์โหลดได้จาก Galaxy App หรือ Google Play) เพื่อเรียกใช้งานฟีเจอร์ต่างๆ ไม่ว่าจะเป็นการตั้งค่าเสียงเตือน การทำงานร่วมกับแอพนาฬิกาและแอพเพื่อสุขภาพ S Health ได้อย่างครบถ้วนLEVEL Active มีพอร์ต microUSB ที่หูฟังด้านซ้ายสำหรับใช้ชาร์จแบตเตอรี่ โดยมีฝาครอบสำหรับปิดเมื่อไม่ได้ใช้งานSamsung วางจำหน่ายหูฟัง LEVEL Active ที่สหรัฐอเมริกาตั้งแต่ 19 สิงหาคมเป็นต้นไปโดยมีราคาเปิดตัว $99.99 (ประมาณ 3,465 บาท) ส่วนประเทศในแถบยุโรป จีน รัสเซีย ตุรกี เกาหลีและประเทศอื่นๆ จะวางจำหน่ายตามมาในอีกไม่ช้า",
+            "images":[
+                {
+                    "id":0,
+                    "image":"https://images.unsplash.com/photo-1505751171710-1f6d0ace5a85?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+                },
+                {
+                    "id":1,
+                    "image":"https://images.unsplash.com/photo-1505751104546-4b63c93054b1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"เฮดโฟน Beats Solo3(สีดำ)",
+            "full_rating":5,
+            "cate":"Headeset",
+            "rating":5,
+            "price":15000,
+            "stock":5,
+            "discription":"เชื่อมต่อกับอุปกรณ์ของคุณด้วย Class 1 Bluetooth® เพื่อเพลิดเพลินไปกับการฟังแบบไร้สายเสียงและดีไซน์ในแบบฉบับของ Beats ที่ได้รับรางวัลและใครๆ ต่างก็หลงรักแบตเตอรี่ใช้งานได้นานสูงสุด 40 ชั่วโมง สำหรับการใช้งานหลายวันFast Fuel ให้คุณชาร์จเพียงแค่ 5 นาที แล้วใช้งานต่อได้นานถึง 3 ชั่วโมงแล้วใช้งานต่อได้นานถึง 3 ชั่วโมงสามารถปรับให้กระชับพอดี โดยมาพร้อมที่ครอบหูบุภายในที่ออกแบบมาเพื่อการสวมใส่ที่สบายในทุกๆ วันดีไซน์เรียบง่ายโฉบเฉี่ยว อีกทั้งยังแข็งแรงทนทานและสามารถพับเก็บเพื่อพกพาไปได้ทุกที่รับสาย ควบคุมเพลง และเรียกใช้ Siri ด้วยปุ่มควบคุมแบบมัลติฟังก์ชั่นบนที่ครอบหู",
+            "review":"เฮดโฟน Beats Solo3 Wirelessกล่องเก็บเฮดโฟนสายชาร์จแบบ Universal USB (USB-A to USB Micro-B)คู่มือเริ่มต้นแบบรวดเร็วใบรับประกัน",
+            "images":[
+                {
+                    "id":0,
+                    "image":"https://images.unsplash.com/photo-1496957961599-e35b69ef5d7c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
+                },
+                {
+                    "id":1,
+                    "image":"https://images.unsplash.com/photo-1491024579037-7484729a4420?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1145&q=80"
+                }
+                ,
+                {
+                    "id":2,
+                    "image":"https://images.unsplash.com/photo-1496957961599-e35b69ef5d7c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":"เฮดโฟน Beats Solo3(สีขาว)",
+            "full_rating":5,
+            "cate":"Headeset",
+            "rating":3,
+            "price":15000,
+            "stock":15,
+            "discription":"เชื่อมต่อกับอุปกรณ์ของคุณด้วย Class 1 Bluetooth® เพื่อเพลิดเพลินไปกับการฟังแบบไร้สายเสียงและดีไซน์ในแบบฉบับของ Beats ที่ได้รับรางวัลและใครๆ ต่างก็หลงรักแบตเตอรี่ใช้งานได้นานสูงสุด 40 ชั่วโมง สำหรับการใช้งานหลายวันFast Fuel ให้คุณชาร์จเพียงแค่ 5 นาที แล้วใช้งานต่อได้นานถึง 3 ชั่วโมงแล้วใช้งานต่อได้นานถึง 3 ชั่วโมงสามารถปรับให้กระชับพอดี โดยมาพร้อมที่ครอบหูบุภายในที่ออกแบบมาเพื่อการสวมใส่ที่สบายในทุกๆ วันดีไซน์เรียบง่ายโฉบเฉี่ยว อีกทั้งยังแข็งแรงทนทานและสามารถพับเก็บเพื่อพกพาไปได้ทุกที่รับสาย ควบคุมเพลง และเรียกใช้ Siri ด้วยปุ่มควบคุมแบบมัลติฟังก์ชั่นบนที่ครอบหู",
+            "review":"เฮดโฟน Beats Solo3 Wirelessกล่องเก็บเฮดโฟนสายชาร์จแบบ Universal USB (USB-A to USB Micro-B)คู่มือเริ่มต้นแบบรวดเร็วใบรับประกัน",
+            "images":[
+                {
+                    "id":0,
+                    "image":"https://images.unsplash.com/photo-1544199870-918141ca57f9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80"
+                },
+                {
+                    "id":1,
+                    "image":"https://images.unsplash.com/photo-1549015900-29b4d462d219?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1049&q=80"
+                },
+                {
+                    "id":2,
+                    "image":"https://images.unsplash.com/photo-1560718217-69193acc0713?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=932&q=80"
+                }
+            ]
+        }
+    ]
+}
